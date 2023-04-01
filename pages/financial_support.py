@@ -31,7 +31,7 @@ def financial_support():
 
     st.markdown("As lack of money remains the primary reason for inability of Filipinos to save, it is critical to have financial support programs focused on the identified demographic without savings.")
 
-    st.image("pic.jpg")
+    st.image("pic.JPG")
 
     st.markdown("""
 
