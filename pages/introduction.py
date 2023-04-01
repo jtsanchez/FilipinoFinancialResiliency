@@ -114,7 +114,7 @@ def introduction():
     top_10ph = grouped_dataph.sort_values('% of population with no savings', ascending=False).head(10).reset_index(drop=True)
     sns.set(font_scale=2)
     fig, ax = plt.subplots(figsize=(10, 6))
-    sns.barplot(x="Income Group", y="% of population with no savings", data=top_10ph, ax=ax, orient='v', color='#DF8020').set(title='Percentage of Filipinos with savings versus without savings')
+    sns.barplot(x="Income Group", y="% of population with no savings", data=top_10ph, ax=ax, orient='v', color='#DF8020').set(title='Percentage of Filipinos without savings')
     st.pyplot(fig)
     
     st.subheader("""Are savings only for the rich?""")
