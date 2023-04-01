@@ -72,7 +72,7 @@ def rely_on_sns():
     cols = ['#DF8020','#F2CCA6','#F2CCA6']
 
     # Create plot
-    ax = sns.barplot(x=['Family/Relatives','Financial Institution', 'Informal'], 
+    ax = sns.barplot(x=['Family','Financial Institution', 'Informal'], 
                  y=[grouped_dataph['Family/Relatives'].values[0], 
                     grouped_dataph['Financial Institution'].values[0], 
                     grouped_dataph['Informal'].values[0]], palette=cols)
